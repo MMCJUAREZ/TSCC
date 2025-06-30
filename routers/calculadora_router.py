@@ -9,7 +9,7 @@ def ruta_suma(datos: SumaRequest):
     resultado = sumar(datos.a, datos.b)
     return {"resultado": resultado}
 
-@router.post("/suma")
+@router.post("/multiplicar")
 def ruta_multiplicar(datos: SumaRequest):
     resultado = multiplicar(datos.a, datos.b)
     return {"resultado": resultado}
