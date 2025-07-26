@@ -13,7 +13,3 @@ def ruta_suma(datos: SumaRequest):
 def ruta_multiplicar(datos: SumaRequest):
     resultado = multiplicar(datos.a, datos.b)
     return {"resultado": resultado}
-
-#Comentario: Adrian
-#A ver xD
-#Hola como estas?
